@@ -38,6 +38,6 @@ Y_pred = neigh.predict(X_test)
 
 pickle.dump(neigh, open('model.pkl','wb'))
 model = pickle.load(open('model.pkl','rb'))
-#print(model.predict(sc.transform(np.array([[20,40]]))))
+print(model.predict([[20,40]]))
 
 
