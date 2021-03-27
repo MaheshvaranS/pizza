@@ -10,7 +10,6 @@ jsonify
 MarkupSafe
 numpy
 pandas
-pickle
 requests
 scikit-learn
 scipy
