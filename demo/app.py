@@ -25,7 +25,7 @@ def predict():
     prediction = model.predict(final_features) 
 
     if prediction == 1:
-        pred = "You have like pizza."
+        pred = "You like pizza."
     elif prediction == 0:
         pred = "You don't like pizza."
     output = pred
